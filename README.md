@@ -15,9 +15,13 @@ This project is a smart mirror web interface built using Flask. The interface di
 - **Timed News Display**: Happy news is displayed for 2 minutes before being hidden.
 
 ## Project Structure
+
 ScrachNew - Copy (3) - Copy
+
 ├── app.py
+
 ├── captured_image.jpg
+
 ├── data.txt
 ├── emotion.txt
 ├── emotion_detection.py
