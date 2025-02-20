@@ -19,25 +19,43 @@ This project is a smart mirror web interface built using Flask. The interface di
 ScrachNew - Copy (3) - Copy
 
 ├── app.py
+
 ├── captured_image.jpg
 
 ├── data.txt
+
 ├── emotion.txt
+
 ├── emotion_detection.py
+
 ├── screen_operation.txt
+
 ├── static
+
 │   ├── css
+
 │   │   └── styles.css
+
 │   ├── images
+
 │   │   ├── cloud.png
+
 │   │   ├── rain.png
+
 │   │   ├── snow.png
+
 │   │   └── sun.png
+
 │   └── js
+
 │       └── scripts.js
+
 ├── templates
+
 │   ├── base.html
+
 │   └── index.html
+
 ├── happy_news.txt
 
 
