@@ -15,3 +15,47 @@ This project is a smart mirror web interface built using Flask. The interface di
 - **Timed News Display**: Happy news is displayed for 2 minutes before being hidden.
 
 ## Project Structure
+ScrachNew - Copy (3) - Copy
+├── app.py
+├── captured_image.jpg
+├── data.txt
+├── emotion.txt
+├── emotion_detection.py
+├── screen_operation.txt
+├── static
+│   ├── css
+│   │   └── styles.css
+│   ├── images
+│   │   ├── cloud.png
+│   │   ├── rain.png
+│   │   ├── snow.png
+│   │   └── sun.png
+│   └── js
+│       └── scripts.js
+├── templates
+│   ├── base.html
+│   └── index.html
+├── happy_news.txt
+
+
+## Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- Python 3.11+
+- Flask
+- DeepFace
+
+### Setup Instructions
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/smart-mirror.git
+   cd smart-mirror
+
+python -m venv venv
+source venv/bin/activate   # On macOS/Linux
+venv\Scripts\activate      # On Windows
+
+
+pip install -r requirements.txt
+python app.py
