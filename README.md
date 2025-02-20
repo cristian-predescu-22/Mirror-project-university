@@ -19,7 +19,6 @@ This project is a smart mirror web interface built using Flask. The interface di
 ScrachNew - Copy (3) - Copy
 
 ├── app.py
-
 ├── captured_image.jpg
 
 ├── data.txt
